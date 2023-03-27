@@ -40,7 +40,7 @@ int main()
 
 
         
-         if (num1 < num2 && num1 < num3)
+        if (num1 < num2 && num1 < num3)
             min = num1;
         if (num2 < num1 && num2 < num3)
             min = num2;
@@ -54,8 +54,10 @@ int main()
         if (num3 > num1 && num3 > num1)
             max = num3;
 
-        cout << "menor numero es; "<< min << endl;
-        cout << "mayor numero es; " << max << endl;
+    
+
+        cout << "menor numero es: "<< min << endl;
+        cout << "mayor numero es: " << max << endl;
 
             return 0;
 }
