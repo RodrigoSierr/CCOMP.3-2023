@@ -6,9 +6,7 @@ int main()
 {   
     int a;
     int b;
-
-
-
+    
     cout << "ingrese sus números: ";
     cin >> a >> b;
      
