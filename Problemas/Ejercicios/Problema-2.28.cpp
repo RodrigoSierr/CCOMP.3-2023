@@ -5,7 +5,7 @@ int main() {
   int numero, num1, num2, num3, num4;
 
   cout << "Introduce un número de 4 cifras: ";
-  cin >> numero;
+  cin >> numero;//9514
 
   num1 = numero / 1000;
   num2 = (numero / 100) % 10;

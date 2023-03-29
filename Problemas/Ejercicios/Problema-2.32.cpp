@@ -6,8 +6,6 @@ int main()
     double edad;
     cout << "Ingrese su edad: ";
     cin >> edad;
-
-
     
     cout<<" "<<endl;
    

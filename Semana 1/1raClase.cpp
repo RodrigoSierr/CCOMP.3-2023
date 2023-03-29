@@ -9,7 +9,7 @@ int main()
     cin >> a;
 
     int b;
-    cout << "ingresa un vaor causa: " << endl;
+    cout << "ingresa un vamor causa: " << endl;
     cin >> b;
     
     

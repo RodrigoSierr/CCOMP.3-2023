@@ -5,9 +5,9 @@ int main() {
 
     float peso, altura;
 
-    cout << "Introduzca su Peso: " << endl;
+    cout << "Introduzca su Peso: ";
     cin >> peso ;
-    cout << "Introduzca su Altura: " << endl;
+    cout << "Introduzca su Altura: ";
     cin >> altura;
 
     float imc = peso / (altura * altura);
