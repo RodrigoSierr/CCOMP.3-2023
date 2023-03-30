@@ -10,14 +10,15 @@ class Factura{
         double impuesto, descuento;
     }
     public {
-        public(){
-            numpie = "";
+        Factura(){
+            numpie = ""; 
             descrip = "";
             cantcompra = 0;
             preciocompr = 0;
             impuesto = 0;
             descuento = 0;
         }
+    
     Factura(string numpie_, string descrip_, int cantcompra_, int precicompr_, double impuesto_, double descuento_)
             numpie = numpie_
             descrip = descrip_
@@ -35,8 +36,52 @@ class Factura{
         }
     void setcantcompra (int cantcompra_)
         {
-
+            cantcompra = cantcompra_;
         }
+    void setpreciocomp (int preciocomp)
+        {
+            preciocomp = preciocomp_:
+        }
+    void setimpuesto (double impuesto_)
+        {
+            impuesto = impuesto_;
+        }      
+    void setdescuento (double descuento_)
+        {
+            descuento = descuento_;
+        }
+    string getnumpie()
+        {
+            return = numpie;
+        }
+    string getdescrip ()
+        {
+            retunr = descrip;
+        }
+    int getcantcompra ()
+        {
+            return = cantcompra;
+        }
+    int getpreciocomp()
+        {
+            return = preciocomp;
+        }
+    double getimpuesto()
+        {
+            return = impuesto;
+        }
+    double getdescuento()
+        {
+            return = descuento
+        }
+    
+
+
+
+
+
+
+
 
 
 

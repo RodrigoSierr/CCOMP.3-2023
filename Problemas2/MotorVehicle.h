@@ -19,7 +19,7 @@ public:
 		yearofmanu = 0;
 		color = "";
 		engineCapacity = 0;
-	};
+	}
 
 	MotorVehicle(string make_, string fuelType_, int yearofmanu_, string color_, int engineCapacity_)
 	{
