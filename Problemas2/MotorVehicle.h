@@ -85,7 +85,7 @@ public:
 		cout << endl << endl << "Detalles de tu carro" << endl;
 		cout << "La marca es: " << getmake() << endl;
 		cout << "El tipo de gasolina es: " << getfuelType() << endl;
-		cout << "El año de manufactura es: " << getyearofmanu() << endl;
+		cout << "El alo de manufactura es: " << getyearofmanu() << endl;
 		cout << "El color es: " << getcolor() << endl;
 		cout << "La cantidad de caballos de fuerza es: " << getengineCapacity() << endl;
 	}

@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 class Fecha {
 private:
@@ -36,7 +37,7 @@ public:
     }
 
     void displayDate() {
-        std::cout << dia << "/" << mes << "/" << anio << std::endl;
+        cout << dia << "/" << mes << "/" << anio << endl;
     }
 };
 
@@ -49,9 +50,9 @@ int main() {
     fecha1.setAnio(2024);
     fecha1.displayDate();
 
-    std::cout << "Dia: " << fecha1.getDia() << std::endl;
-    std::cout << "Mes: " << fecha1.getMes() << std::endl;
-    std::cout << "Anio: " << fecha1.getAnio() << std::endl;
+    cout << "Dia: " << fecha1.getDia() << endl;
+    cout << "Mes: " << fecha1.getMes() << endl;
+    cout << "Anio: " << fecha1.getAnio() << endl;
 
     return 0;
 }

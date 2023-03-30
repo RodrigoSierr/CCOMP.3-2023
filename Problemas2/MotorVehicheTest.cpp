@@ -7,23 +7,23 @@ using namespace std;
 int main()
 {
 	string marca, tipogas, color;
-	int añomanu, capacidad;
+	int alomanu, capacidad;
 
-	cout << "¿Que marca es tu carro?: ";
+	cout << "Â¿Que marca es tu carro?: ";
 	cin >> marca;
 
-	cout << endl << "¿Que combustible usa tu carro?: ";
+	cout << endl << "Â¿Que combustible usa tu carro?: ";
 	cin >> tipogas;
 
-	cout << endl << "¿De que año es tu carro?: ";
-	cin >> añomanu;
+	cout << endl << "Â¿De que anio es tu carro?: ";
+	cin >> alomanu;
 
-	cout << endl << "¿De que color es tu carro?: ";
+	cout << endl << "Â¿De que color es tu carro?: ";
 	cin >> color;
 
-	cout << endl << "¿Cuantos caballos de fuerza tiene tu carro?: ";
+	cout << endl << "Â¿Cuantos caballos de fuerza tiene tu carro?: ";
 	cin >> capacidad;
 
-	MotorVehicle carro(marca, tipogas, añomanu, color, capacidad);
+	MotorVehicle carro(marca, tipogas, alomanu, color, capacidad);
 	carro.displayCarDetail();
 }
