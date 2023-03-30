@@ -74,19 +74,8 @@ class Factura{
         {
             return = descuento
         }
-    
-
-
-
-
-
-
-
-
-
-
     }
 
 
 
-}
+};
